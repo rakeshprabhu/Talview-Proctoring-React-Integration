@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 );
 
 const proviewConfiguration = {
-  proviewUrl: "https://cdn.proview.io/v7/init.js",
+  proviewUrl: "https://cdn.proview.io/testing/v7-universal/v3.1/init.js",
   proviewToken: process.env.REACT_APP_PROVIEW_TOKEN!,
   profileId: "p-"+Math.random(),
   sessionId: "s-"+Math.random(),
